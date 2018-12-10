@@ -3,6 +3,8 @@
 
 Great Ideas allows LAA staff to submit their ideas for consideration to the Continuous Improvement team.
 
+Adrian was here.
+
 ## Setting up a development environment
 
 ### Dependencies
