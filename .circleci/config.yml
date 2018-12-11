@@ -23,3 +23,6 @@ jobs:
       - run:
           name: Crate Database
           command: bundle exec rake db:create db:schema:load
+      - run:
+          name: RuboCop
+          command: bundle exec rubocop
