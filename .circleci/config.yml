@@ -20,3 +20,6 @@ jobs:
       - run:
           name: bundle
           command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - run:
+          name: Crate Database
+          command: bundle exec rake db:create db:schema:load
